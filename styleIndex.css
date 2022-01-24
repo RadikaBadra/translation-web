@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+.header {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.header li{
+    display: inline-flex;
+}
+
+.header li h3{
+    font-family: Roboto;
+    font-size: larger;
+}
+
+.header li span{
+    color: #168fc6;
+}
+
+
+.container-main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* background-color: red; */
+    align-items: center;
+    width: 100%;
+    height: 90vh;
+}
+
+.back{
+    flex-wrap: wrap;
+    /* background-color: rgb(165, 42, 159); */
+    width: 80%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-container{
+
+    display: flex;
+    margin-top: 50px;
+    /* background-color: green; */
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgb(222, 135, 208); */
+    width: 70%;
+    height: 30vh;
+
+}
+
+.container1{
+    height: 40vh;
+    width: 70%;
+    /* background-color: rgba(22,143,198,0.2); */
+    margin: 10px;
+}
+
+.container2{
+    height: 40vh;
+    width: 70%;
+    /* background-color: rgba(22,143,198,0.2); */
+    margin: 10px;
+}
+.dropdown-menu select{
+    height: 30px;
+    width: 95.5% ;
+    margin: 10px 10px 0px 10px;
+    font-family: arial;
+    color: white;
+    background-color: #168fc6;
+    border : none
+}
+
+.dropdown-menu select option{
+    background-color: white;
+    color: black;
+}
+
+.text-input{
+    height: 75%;
+    margin: 0px 10px 10px 10px;
+    /* background-color: darkblue; */
+    clear: both;
+}
+
+.text-input textarea{
+    font-family: arial;
+    padding: 10px;
+    background-color: white;
+    border-color: rgb(221, 221, 221);
+    font-size: 13px;
+    resize: none;
+}
+
+.text-input textarea:disabled{
+    background-color: white;
+}
+
+.text-input textarea::placeholder{
+    color: grey;
+    font-size: large;
+}
+
+.BtnSection{
+    width: 100%;
+    margin-bottom: auto;
+    /* background-color: rebeccapurple; */
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.BtnSection button{
+    margin: 5px;
+    /* background-color: blue; */
+    padding: 10px;
+}
+
+.historyBack{
+   align-items: center;
+   justify-content: center;
+   background-color: rgb(0, 0, 0, 0.2);
+   position: fixed;
+   top: 0;
+   left: 0;
+   opacity: 0;
+   pointer-events: none;
+   height: 100vh;
+   width: 100%;
+   transition: opacity 0.3s ease;
+   display: flex;
+
+}
+.historySection{
+    background-color: rgb(255, 255, 255);
+    width: 60%;
+    height: 60vh;
+    box-shadow: 3px 7px 64px -1px rgba(0,0,0,0.41);
+}
+
+.historySection h2{
+    margin-bottom: 20px;
+}
+.historySection img{
+    width: 15pt;
+    height: 15pt;
+    margin-left: 96%;
+    padding: 5px;
+    cursor: pointer;
+}
+
+
+#tableHistory{
+    text-align: center;
+    background-color: white;
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 20px;
+   
+}
+
+#tableHistory tr th{
+    background-color: #168fc6;
+    color: white;
+    border: none;
+}    
+
+#tableHistory tr td{
+    border-top: 1px solid rgb(187, 187, 187);
+}
+
+.buttonTranslate{
+    background-color: #168fc6;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 150px;
+    color: white;
+    pointer-events: stroke;
+}
+
+#buttonHistory{
+    border: none;
+    color: #168fc6;
+    border-radius: 5px;
+    cursor: pointer;
+}

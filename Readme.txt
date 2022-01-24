@@ -1,0 +1,1 @@
+API limit request hanya 100 request/bulan >.<

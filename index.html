@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styleIndex.css">
+    <title>TRANSLATE</title>
+</head>
+
+<body>
+    <header class="header">
+        <ul>
+            <li>
+                <h3><span>TRANSLATION</span> WEB</h3>
+            </li>
+        </ul>
+    </header>
+    <div class="container-main">
+        <div class="back">
+            <div class="flex-container">
+                <div class="container1">
+                    <div class="dropdown-menu">
+                        <select name="cars" id="fromLang">
+                            <option value="auto">Auto Detect</option>
+                        </select>
+                    </div>
+                    <div class="text-input">
+                        <textarea name="" id="source" cols="55" rows="10"></textarea>
+                    </div>
+                </div>
+                <div class="logo">
+                    <!-- <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div> -->
+                        <img id="reverseBtn" style="width: 30px; margin-bottom: 50px; cursor: pointer;"
+                        src="./image assets/revert-hand-drawn-arrows (2).png" alt="">
+                    
+                </div>
+                <div class="container2">
+                    <div class="dropdown-menu">
+                        <select name="cars" id="toLang">
+
+                        </select>
+                    </div>
+                    <div class="text-input">
+                        <textarea name="" id="translated" cols="55" rows="10" placeholder="Translate"
+                            disabled></textarea>
+                    </div>
+                </div>
+            </div>
+            <div class="BtnSection">
+                <button class="buttonTranslate" id="buttonTranslate">Translate</button>
+                <button id="buttonHistory">History</button>
+            </div>
+        </div>
+    </div>
+    <div class="historyBack" class="show">
+        <div class="historySection">
+            <!-- <a href="https://icons8.com/icon/71200/close">Close icon by Icons8</a> -->
+            <img id="btnClose" src="https://img.icons8.com/ios-glyphs/30/000000/delete-sign.png"/>
+            <center><h2>HISTORY</h2></center>
+            <table id="tableHistory">
+                
+               
+            </table>
+        </div>
+    </div>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="./js/script.js"></script>
+<script src="./js/alert.js"></script>
+<!-- <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script> -->
+</html>
